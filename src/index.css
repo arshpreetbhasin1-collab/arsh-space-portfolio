@@ -1511,8 +1511,9 @@ a {
   body {
     font-size: 15px;
   }
+  /* One screen for the sticky stage plus a slightly shorter scroll distance than desktop. */
   .scene {
-    height: calc(var(--len, 1) * 78svh);
+    height: calc(100svh + (var(--len, 1) - 1) * 80svh);
   }
   .stage__vignette {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent 18%, transparent 45%, rgba(0, 0, 0, 0.7) 100%);

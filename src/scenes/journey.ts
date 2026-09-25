@@ -215,7 +215,7 @@ export const scenes: SceneDef[] = [
   {
     id: 'contact',
     label: 'Contact',
-    length: 1.4,
+    length: 1.9,
     // Full circle: home is back on the horizon when the ship lands.
     plate: { src: '/plates/orbit.webp', mobileSrc: '/plates/m/orbit.webp', motion: 'drift', focus: [50, 90], exposure: 0.32 },
     stars: 0.35,
